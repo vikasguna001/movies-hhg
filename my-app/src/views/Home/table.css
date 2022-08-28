@@ -1,0 +1,9 @@
+.btn1
+{
+  background-image: linear-gradient(to right ,#0F2027,#203A43,#2c5364);
+  border: none;
+  color:white;
+}
+span{
+  color: red;
+}

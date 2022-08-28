@@ -1,0 +1,17 @@
+.abc
+{
+  background-color:azure;
+  padding:5px;
+  text-align:center;
+  margin-top:50px;
+  text-shadow:2px 2px 2px lightseagreen;
+  text-transform:uppercase;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 5px; 
+}
+.btn1
+{
+  background-image: linear-gradient(to right ,#0F2027,#203A43,#2c5364);
+  border: none;
+  color:white;
+}
