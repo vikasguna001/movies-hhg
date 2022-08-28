@@ -1,0 +1,60 @@
+img.filter {
+	filter: drop-shadow(0.5px 0.5px 1.5px #98FB98);
+	/* The best way to add a drop-shadow to a transparent image */
+}
+/* .dropdown-menu
+{
+	margin: 5px;
+}
+.dropdown-menu li a{
+	text-decoration: none;
+	color: black
+}
+.dropdown{
+	position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	margin-top: 0;
+} */
+
+/* Dropdown Button */
+.dropbtn {
+	/* background-color: #04AA6D; */
+	color: white;
+	/* padding: 16px; */
+	font-size:35px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	
+  }
+  
+  .dropdown-menu {
+	display: none;
+	position: absolute;
+	right: 0;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-menu a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-menu a:hover {background-color: #f1f1f1;}
+  .dropdown:hover .dropdown-menu {display: block;}
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */

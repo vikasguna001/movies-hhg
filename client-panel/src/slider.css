@@ -1,0 +1,92 @@
+.carousel-caption
+{
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    top: 18%;
+    /* left: 50%; */
+    transform: translateY(50%);
+    transform: translateX(30%);
+    /* text-align: left; */
+    padding-left: 300px;
+    padding-right: 300px;
+
+    /* text-shadow: 10px 10px blue; */
+}
+
+.treanding{
+   color: #fff;
+   margin: 20px 0 10px 20px;
+}
+.popular{
+    color: #fff;
+    margin: 20px 0 10px 20px;
+
+}
+body{
+
+    background-color: #fff;
+}
+.carousel-indicators {
+
+    margin-top: 500px;
+}
+/* external css: flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif }
+
+.carousel {
+    background: #000;
+  }
+
+
+.carousel-cell {
+  width: 10%;
+  height: 250px !important;
+  background-size: cover;
+  margin-right: 10px;
+  background: #fff;
+  /* margin-left: 10px; */
+  border-radius: 6px;
+  counter-increment: carousel-cell;
+}
+
+.flickity-prev-next-button {
+    
+    /* position: absolute; */
+    left: 97%;
+    top: 50%;
+    color: #000;
+    transition: all ease-in-out 0.6s;
+    display: none;
+    width: 3%;
+    height: 100%;
+    border-radius: 0;
+    box-shadow:-15px 0px 25px black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.flickity-prev-next-button:hover{
+
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow:-15px 0px 25px black;
+    /* transition: all ease-in-out 1s; */
+    transition: 1s ;
+
+   
+}
+/* .main
+{ */
+    /* transition: 2s ; */
+/* } */
+
+
+
+/* cell number */
+/* .carousel-cell:before { */
+  /* display: block; */
+  /* text-align: center; */
+  /* content: counter(carousel-cell); */
+  /* line-height: 200px; */
+  /* font-size: 80px; */
+  /* color: white; */
+/* } */

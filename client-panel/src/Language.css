@@ -1,0 +1,43 @@
+img{
+    border-radius: 10px;
+	transition: .7s ease-in-out;
+
+    
+    
+}
+.hovr_img
+{
+    position: relative;
+    opacity: .7;
+    /* transition: all ; */
+    /* z-index: -1; */
+    /* webkit-transform: scale(1); */
+	/* transform: scale(1);                      */
+}
+body{color: white;}
+span{
+    position: absolute;
+    top: 45%;
+    /* text-align: center; */
+    left: 50%;
+    transform: translateX(-45%);
+    /* transform: translateY(-50%); */
+    opacity: 2;
+    z-index: 1;
+}
+@media screen and(max-width: 576px){
+    span{
+        font-size: 20px;
+
+    }
+}
+span{
+	transition: .7s ease-in-out;
+
+}
+.hovr_img:hover span{
+    transform: scale(1.0);
+}
+.hovr_img:hover img{
+    transform: scale(1.1);
+}

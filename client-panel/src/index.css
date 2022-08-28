@@ -1,0 +1,21 @@
+/* body {
+  margin: 0;
+  font-family:"Roboto","HelveticaNeue-Light",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  /* background-image:  linear-gradient(to bottom, #0c111b, #0c111b); */
+  /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,0,70,1) 4%, rgba(9,9,121,1) 45%, rgba(5,124,148,1) 100%); */
+
+  /* padding:0.5rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
