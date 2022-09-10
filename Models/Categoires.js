@@ -12,6 +12,9 @@ const category1 = new mongoose.Schema({
     {
         type:String
     }
+
+
+    
    
 })
 const Categoires = new mongoose.model("category",category1);
